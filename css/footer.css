@@ -1,0 +1,28 @@
+/* Footer Section Start
+============================*/
+.footer {
+    padding: 20px 0 15px;
+
+    background-color: #000;
+    text-align: center;
+}
+
+.social__area--footer {
+    margin-bottom: 15px;
+}
+
+.social__area--footer .social__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.social__area--footer .social__icon {
+    height: 20px;
+    width: 20px;
+}
+
+.footer__text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .5);
+}
+
+/*Footer Section End*/

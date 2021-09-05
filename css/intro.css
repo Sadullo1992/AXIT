@@ -1,0 +1,121 @@
+/* Intro
+================*/
+.intro {
+    background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/intro_background.jpg) center no-repeat;
+    background-size: cover;
+
+
+}
+
+.intro__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0;
+}
+
+.intro__content {
+    margin-top: -20px;
+    width: 50%;
+    max-width: 540px;
+    color: white;
+    text-align: left;
+}
+
+.logo__intro {
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+.intro__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.intro__line {
+    margin: 40px 0;
+
+    width: 65px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.intro__text {
+    margin-bottom: 40px;
+    max-width: 470px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, .8);
+}
+
+
+.intro__card {
+    width: 50%;
+    max-width: 360px;
+    height: 360px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card__title {
+    padding: 15px 0;
+    background-color: #f5f5f5;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+.card__title span {
+    color: #ff8b38;
+}
+
+.card__item {
+    margin: 35px 35px 0;
+    padding: 7px 10px;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+.card__item:focus {
+    outline: none;
+}
+
+input[type="password"] {
+    margin-bottom: 45px;
+}
+::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: #bdbdbd;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card__btn {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ff8b38;
+
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+
+    transition: background 0.2s linear;
+}
+.card__btn:focus {
+    outline: none;
+}
+
+.card__btn:hover {
+    background-color: #e86f18;
+}

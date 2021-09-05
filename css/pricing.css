@@ -1,0 +1,119 @@
+/* Pricing Section Start
+========================*/
+.pricing {
+    padding: 100px 0 90px;
+    background-color: #f5f5f5;
+}
+
+.pricing__inner {
+    text-align: center;
+}
+
+.pricing__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #212121;
+}
+
+.pricing__text {
+    line-height: 1.5;
+}
+
+.pricing__row {
+    margin: 0 -15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__item {
+    margin: 65px 15px 0;
+    width: 33.33%;
+    max-width: 335px;
+    text-align: center;
+
+    background: #f5f5f5;
+}
+
+.pricing__item div {
+    width: 100%;
+    text-align: center;
+}
+
+.pricing__type {
+    padding: 20px 0;
+    background-color: #333;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+    border-bottom: 1px solid #fff;
+}
+
+.pricing__amount {
+    padding: 30px 0;
+    background-color: #333;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 94px;
+    font-weight: 700;
+    color: #fff;
+}
+.pricing__amount span {
+    font-size: 35px;
+}
+
+.pricing__period {
+    padding-bottom: 20px;
+    background-color: #333;
+
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(255, 255, 255, .5);
+
+    /*border-bottom: 5px solid #ff8b38;*/
+}
+
+.pricing__btn {
+    display: block;
+
+    padding: 15px 0 15px;
+    background-color: #ff8b38;
+
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.pricing__btn:hover {
+    background-color: #e86f18;
+}
+
+.pricing__price {
+    transform: translateY(40px);
+    background-color: #333;
+    transition: transform 0.4s ease-out;
+}
+.pricing__item:hover > .pricing__price {
+    transform: translateY(0px);
+}
+
+.pricing__infomation {
+    padding: 15px 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878b;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #f5f5f5;
+
+    background-color: #fff;
+}
+/*Pricing Section End*/

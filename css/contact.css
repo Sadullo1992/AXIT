@@ -1,0 +1,55 @@
+/* Contact Section Start
+==========================*/
+.contact {
+    padding: 90px 0 80px;
+    text-align: center;
+}
+
+.contact__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #212121;
+}
+
+.contact__text {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.contact__row {
+    margin: 0 -15px 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact__col {
+    margin: 30px 15px 0;
+    width: 50%;
+    max-width: 530px;
+}
+
+.contact__item {
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 7px 10px;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+
+    font-family: 'Open-sans', sans-serif;
+    color: #ff8b38;
+    font-size: 14px;
+}
+
+.contact__item:focus {
+    outline: none;
+}
+
+textarea {
+    height: 165px;
+    resize: none;
+}
+/*Contact Section End*/
